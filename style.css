@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Overview h1 {
+    font-size: 5rem;
+    color: white;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.bd {
+    background-image: url(ground.jpg);
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.text h3 {
+    font-size: 2.5rem;
+    color: rgb(33, 33, 93);
+    background-color: rgb(71, 215, 71);
+    box-shadow: inset black;
+    padding: 3px 40px;
+}
+
+.text img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.bd h2 {
+    font-size: 3.5rem;
+    color: rgb(64, 137, 165);
+    padding: 10px;
+    text-align: center;
+}
+
+.bd h3 {
+    font-style: 3rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.Overview p,
+footer {
+    color: rgb(39, 39, 112);
+    background-color: rgb(223, 80, 28);
+    text-align: center;
+    padding: 20px;
+    font-weight: 300px;
+    font-size: 1.5rem;
+}
+
+nav {
+    position: sticky;
+}
+
+nav img,
+.navdiv img {
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.Content,
+.footer {
+    background-color: rgb(39, 39, 112);
+}
+
+.navdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+nav h3,
+.footer h2,
+.left h3 {
+    font-size: 2.5rem;
+    padding: 50px;
+    color: white;
+}
+
+.list h3,
+.picturelist h4,
+.Map h3,
+.Offer .left h2 {
+    color: black;
+    font-size: 2rem;
+    background-color: rgb(223, 80, 28);
+    padding: 5px;
+    padding-right: 100px;
+    border: 3px solid rgb(39, 39, 112);
+    border-radius: 10px;
+}
+
+.ContentList {
+    padding: 100px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+ul {
+    background-color: rgb(190, 237, 255);
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 100px;
+    margin-top: 20px;
+    width: 600px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    list-style: none;
+    color: black;
+}
+
+ul li a:hover {
+    background-color: rgb(203, 189, 189);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+li {
+    list-style: none;
+}
+
+.picturelist img {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.picturelist {
+    margin-top: -100px;
+}
+
+.Introduction,
+.Mission,
+.features,
+.size {
+    background-color: rgb(39, 39, 112);
+}
+
+.Introduction p {
+    background-color: rgb(190, 237, 255);
+    font-size: 1.5rem;
+    text-align: justify;
+    border-radius: 5px;
+    width: 800px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.Introduction h3,
+.Mission h3,
+.Land h2,
+.all h2,
+.map h3,
+.size .h2 h2,
+.Conditions .right h2 {
+    color: black;
+    font-size: 2rem;
+    background-color: rgb(223, 80, 28);
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.intro {
+    margin-left: 30px;
+}
+
+.Introduction img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 580px;
+    margin-top: -130px;
+    margin-bottom: 30px;
+}
+
+.Mission h3 {
+    text-align: center;
+    margin-left: 450px;
+}
+
+.Mission h2 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imglist img {
+    width: 220px;
+    height: 220px;
+    margin: 90px;
+}
+
+.Land {
+    background-color: rgb(64, 137, 165);
+}
+
+.la h2 {
+    margin-left: 30px;
+}
+
+.la {
+    padding: 80px;
+}
+
+.Land,
+.Map {
+    background-color: rgb(190, 237, 255);
+}
+
+.whole .text p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 800px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.whole {
+    display: flex;
+    flex-direction: row;
+}
+
+.whole img {
+    width: 300px;
+    height: 250px;
+    margin-top: -100px;
+    margin: 30px;
+}
+
+.one img {
+    width: 300px;
+    height: 600px;
+    margin: 30px;
+    margin-top: 200px;
+}
+
+.all {
+    background-color: rgb(190, 237, 255);
+    width: 800px;
+    height: 850px;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding-right: 20px;
+}
+
+.pgall {
+    display: flex;
+    flex-direction: row;
+}
+
+.all h2 {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 80px;
+}
+
+.dotline {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(223, 80, 28);
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.line p {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.all img,
+.sideimg img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.imgdiv {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.one img {
+    width: 300px;
+    height: 700px;
+}
+
+.two img {
+    width: 400px;
+    height: 200px;
+
+}
+
+.two {
+    margin-top: 200px;
+}
+
+.three {
+    margin-left: -50px;
+    margin-top: 150px;
+}
+
+.three img {
+    height: 300px;
+    width: 300px;
+
+}
+
+.last img {
+    margin-top: -150px;
+    margin-left: -450px;
+}
+
+.Map h3 {
+    margin-top: 100px;
+}
+
+.Map .imgmap img {
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.footer p {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.Offer .left,
+.size .left,
+.Conditions .right {
+    background-color: rgb(190, 237, 255);
+    width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+}
+
+.Offer .right,
+.size .right,
+.Conditions .left {
+    background-color: rgb(39, 39, 112);
+    width: 300px;
+    height: 800px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(39, 39, 112);
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+}
+
+.Offer .left h2 {
+    margin-left: 50px;
+    width: 350px;
+}
+
+.work img,
+.work .img {
+    width: 350px;
+    height: 400px;
+    margin-top: -100px;
+    margin: 30px;
+}
+
+.page .work .text p,
+#made {
+    font-size: 1.8rem;
+    color: rgb(10, 10, 10);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.work .text {
+    width: 350px;
+    height: 400px;
+    margin-top: 45px;
+}
+
+.size .right img,
+.Conditions .left img {
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.size {
+    display: flex;
+    flex: column;
+}
+
+.size h2 {
+    margin: 20px;
+}
+
+.justtwo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.size .left #text {
+    color: black;
+    font-size: 1.5rem;
+    background-color: rgb(223, 80, 28);
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+#long {
+    width: 500px;
+}
+
+.Conditions .right h2 {
+    margin-left: -100px;
+    margin-top: 100px;
+}
+
+.Conditions .right {
+    background-color: rgb(190, 237, 255);
+    width: 800px;
+    height: 800px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+}
+
+.Conditions {
+    background-color: rgb(39, 39, 112);
+}
+
+.Conditions .left {
+    background-color: rgb(39, 39, 112);
+    width: 500px;
+    height: 800px;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+}
+
+.Conditions .left img {
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.end img {
+    width: 100%;
+    height: 700px;
+}
