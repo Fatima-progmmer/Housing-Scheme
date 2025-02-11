@@ -493,3 +493,341 @@ li {
     width: 100%;
     height: 700px;
 }
+
+/* Responsive Styles */
+
+/* Screens up to 1200px */
+@media only screen and (max-width: 1200px) {
+    .Overview h1 {
+        font-size: 4rem;
+        padding: 0 80px;
+    }
+    .text h3 {
+        font-size: 2rem;
+        padding: 3px 30px;
+    }
+    .text img {
+        width: 250px;
+        height: 250px;
+        padding: 15px;
+    }
+    .bd h2 {
+        font-size: 3rem;
+    }
+    .bd h3 {
+        font-size: 2.5rem;
+    }
+    .Introduction p {
+        width: 700px;
+    }
+    ul {
+        width: 500px;
+    }
+    .all {
+        width: 700px;
+        height: auto;
+    }
+    .Offer .left,
+    .size .left,
+    .Conditions .right {
+        width: 700px;
+        height: auto;
+    }
+    .Offer .right,
+    .size .right,
+    .Conditions .left {
+        width: 250px;
+        height: auto;
+    }
+    .imgdiv img {
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+    }
+}
+
+/* Screens up to 992px */
+@media only screen and (max-width: 992px) {
+    .pictures {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .text h3 {
+        text-align: center;
+        padding: 3px 20px;
+    }
+    .text img {
+        width: 220px;
+        height: 220px;
+    }
+    .bd h2 {
+        font-size: 2.5rem;
+    }
+    .bd h3 {
+        font-size: 2rem;
+    }
+    .ContentList {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    ul {
+        width: 80%;
+        padding-right: 0;
+    }
+    .picturelist img {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+    .Introduction p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2rem;
+    }
+    .Introduction img {
+        width: 220px;
+        height: 220px;
+        margin: 20px auto;
+    }
+    .whole {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whole img {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .all {
+        width: 90%;
+        padding-right: 0;
+    }
+    .Offer .left,
+    .size .left,
+    .Conditions .right,
+    .Offer .right,
+    .size .right,
+    .Conditions .left {
+        width: 100%;
+        height: auto;
+    }
+    .page {
+        flex-direction: column;
+    }
+    .work {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work img {
+        margin: 20px 0;
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Screens up to 768px */
+@media only screen and (max-width: 768px) {
+    .Overview h1 {
+        font-size: 3rem;
+        padding: 0 20px;
+    }
+    .text h3 {
+        font-size: 1.8rem;
+    }
+    .text img {
+        width: 180px;
+        height: 180px;
+    }
+    .bd h2 {
+        font-size: 2rem;
+    }
+    .bd h3 {
+        font-size: 1.8rem;
+    }
+    .Introduction p {
+        font-size: 1rem;
+    }
+    ul li a {
+        font-size: 1.5rem;
+    }
+    .picturelist img {
+        width: 100%;
+        height: auto;
+    }
+    .imgdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgdiv img {
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .Offer .left h2,
+    .size .left h2,
+    .Conditions .right h2 {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+    .Offer .left,
+    .size .left,
+    .Conditions .right,
+    .Offer .right,
+    .size .right,
+    .Conditions .left {
+        width: 100%;
+        height: auto;
+    }
+    .page {
+        flex-direction: column;
+    }
+    .work img,
+    .work .img {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .pgall {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgdiv {
+        padding: 0;
+    }
+    .end img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Screens up to 576px */
+@media only screen and (max-width: 576px) {
+    .Overview h1 {
+        font-size: 2.5rem;
+        padding: 0 10px;
+    }
+    .text h3 {
+        font-size: 1.5rem;
+    }
+    .text img {
+        width: 150px;
+        height: 150px;
+    }
+    .bd h2 {
+        font-size: 1.8rem;
+    }
+    .bd h3 {
+        font-size: 1.5rem;
+    }
+    .Introduction p {
+        font-size: 0.9rem;
+    }
+    ul li a {
+        font-size: 1.2rem;
+    }
+    .Introduction img {
+        width: 180px;
+        height: 180px;
+    }
+    .all h2 {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+    .dotline {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+    .dot {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .imgdiv img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .Offer .left h2,
+    .size .left h2,
+    .Conditions .right h2 {
+        font-size: 1.2rem;
+    }
+    .page {
+        flex-direction: column;
+    }
+    .work {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .work .text p {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+    .size .right img,
+    .Conditions .left img {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .Conditions .right h2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+/* Screens up to 360px */
+@media only screen and (max-width: 360px) {
+    .Overview h1 {
+        font-size: 2rem;
+        padding: 0 5px;
+    }
+    .text h3 {
+        font-size: 1.2rem;
+        padding: 3px 5px;
+    }
+    .text img {
+        width: 120px;
+        height: 120px;
+    }
+    .bd h2 {
+        font-size: 1.5rem;
+    }
+    .bd h3 {
+        font-size: 1.2rem;
+    }
+    .Introduction p {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    ul li a {
+        font-size: 1rem;
+    }
+    .Introduction img {
+        width: 150px;
+        height: 150px;
+    }
+    .all h2 {
+        font-size: 1.2rem;
+    }
+    .work .text p,
+    #made {
+        font-size: 0.9rem;
+    }
+    .size .right img,
+    .Conditions .left img {
+        width: 100%;
+        height: auto;
+    }
+    .end img {
+        width: 100%;
+        height: auto;
+    }
+}
